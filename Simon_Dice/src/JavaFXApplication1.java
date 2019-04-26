@@ -23,7 +23,6 @@ public class JavaFXApplication1 extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("Inicio.fxml"));
         Scene scene = new Scene(root,450,450);
 
-
         stage.setScene(scene);
         stage.show();
     }
@@ -34,5 +33,4 @@ public class JavaFXApplication1 extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
 }
